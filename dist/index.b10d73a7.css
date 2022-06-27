@@ -1,0 +1,26 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: roboto, sans-serif;
+}
+
+a, p, li {
+  font-family: Staatliches, cursive;
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */

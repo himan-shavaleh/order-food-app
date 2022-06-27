@@ -1,0 +1,1 @@
+{"mappings":";ACcA;;;;AAGA;;;;AAGA;;;;;;;;AAOA;;;;AASA","sources":["src/scss/main.scss","src/scss/_config.scss"],"sourcesContent":["@import 'config';\r\n@import 'utilities';\r\n@import 'header';\r\n@import 'sidebar';\r\n\r\n// responsive\r\n@import 'responsive';",null],"names":[],"version":3,"file":"index.b10d73a7.css.map","sourceRoot":"/__parcel_source_root/"}
