@@ -10,28 +10,73 @@
   </head>
   <body>
     <!-- header -->
-    <header id="header">
-      <!-- message -->
-      <div class="header--message">
-        <h1 class="message">welcom to didar food</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
-          quos aut, nostrum sunt optio dolorum, obcaecati aspernatur eos odio
-          ipsa numquam quidem dignissimos excepturi magnam. Cum reprehenderit
-          placeat iure omnis.
-        </p>
-      </div>
-      <!-- search bar -->
-      <div class="search-bar"></div>
-      <!-- cart -->
-      <div class="cart"></div>
+    <header id="header" class="p-2 container">
+      <nav class="navbar">
+        <ul class="nav d-grid justify-between align-center">
+          <li class="nav__item logo">
+            <a href="/index.html" class="nav__item-link">
+              <img class="border-radius-circle" src="/large.9bc0c157.png" width="150" height="80" alt="logo">
+            </a>
+          </li>
+          <li class="nav__item location">
+            <!-- <label for="address"
+              ><box-icon color="#f94747" name="current-location"></box-icon
+            ></label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="please insert your address"
+              class=""
+            /> -->
+          </li>
+          <li class="nav__item top-menu d-flex justify-between align-center">
+            <a href="#" class="nav__item-link d-flex justify-center align-center text-color-danger text-uppercase">account
+              <box-icon color="#f94747" name="user" type="solid"></box-icon></a>
+            <a href="#" class="nav__item-link d-flex justify-center align-center text-color-danger text-uppercase">cart <box-icon color="#f94747" name="cart"></box-icon></a>
+            <a href="#" class="nav__item-link d-flex justify-center align-center text-color-danger text-uppercase">offers
+              <box-icon color="#f94747" name="offer" type="solid"></box-icon></a>
+            <a href="#" class="nav__item-link d-flex justify-center align-center text-color-danger text-uppercase">search <box-icon name="search-alt-2" color="#f94747"></box-icon></a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- end of header -->
-    <!-- main -->
-    <main id="main">
-      <section id="meals"></section>
+<div class="container">
+
+      <!-- main -->
+      <main id="main">
+        <!-- Right Menu -->
+ 
+    <menu id="right-menu" class="p-3">
+      <ul class="nav">
+        <li class="nav__item mx-2">
+          <a href="" class="nav__item-link text-color-dark">home</a>
+        </li>
+        <li class="nav__item mx-2">
+          <a href="" class="nav__item-link text-color-dark">services</a>
+        </li>
+        <li class="nav__item mx-2">
+          <a href="" class="nav__item-link text-color-dark">wishlist</a>
+        </li>
+        <li class="nav__item mx-2">
+          <a href="" class="nav__item-link text-color-dark">about</a>
+        </li>
+      </ul>
+    </menu>
+      <section id="app"></section>
+        <!-- category -->
+    <aside id="category"></aside>
+    <!-- End of category -->
     </main>
     <!-- end of main -->
+
+</div>  
+      <!-- End of Right Menu -->
+
+    
+    
+
     <script src="/index.e37f48ea.js" defer=""></script>
   </body>
 </html>

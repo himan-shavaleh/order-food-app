@@ -10,13 +10,15 @@ $color-dark: #383838;
 $color-darker: #1b1a17;
 $color-orange: #f76e11;
 $color-light: #ffffff;
-
+$color-danger: rgb(248, 108, 108);
+$color-succes: rgb(152, 248, 108);
 // resets
 html {
   font-size: 62.5%;
 }
 body {
   box-sizing: border-box;
+  background: $color-secondary;
 }
 * {
   margin: 0;

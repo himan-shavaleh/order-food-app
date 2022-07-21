@@ -1,0 +1,34 @@
+#header {
+  .nav {
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 2rem;
+   
+    .top-menu {
+      a {
+        font-size: 2rem;
+        gap: 1rem;
+        transition: all 0.5s;
+        &:hover {
+          color: $color-dark;
+          font-size: 2.3rem;
+        }
+      }
+    }
+  }
+}
+// right menu
+#right-menu {
+  margin-top: 2rem;
+  display: grid;
+  height: 100%;
+
+  width: 15vw;
+  .nav__item-link {
+    font-size: 2.5rem;
+    transition: all 0.5s;
+    &:hover {
+      color: $color-danger;
+      font-size: 3rem;
+    }
+  }
+}

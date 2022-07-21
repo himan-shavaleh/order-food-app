@@ -1,7 +1,12 @@
-@import 'config';
-@import 'utilities';
-@import 'header';
-@import 'sidebar';
+@import "config";
+@import "utilities";
+@import "header";
+@import "sidebar";
 
 // responsive
-@import 'responsive';
+@import "responsive";
+#main {
+  display: grid;
+  grid-template-columns: 10% 70% 18%;
+  justify-content: space-between;
+}
